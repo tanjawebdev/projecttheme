@@ -1,0 +1,16 @@
+/*
+ * Base
+ */
+*,
+*:hover,
+*:focus {
+  outline: 0;
+}
+
+.transition {
+  transition: var(--theme-transition);
+}
+
+#content {
+  min-height: 100vh;
+}

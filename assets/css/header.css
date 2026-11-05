@@ -1,0 +1,39 @@
+/*
+ * Header
+ */
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+
+@media (min-width: 767px) {
+  header {
+    position: relative;
+  padding: 2rem 3rem;
+  }
+}
+
+.site-title {
+  margin: 0;
+}
+
+.site-logo {
+  display: block;
+  width: min(100%, 180px);
+  height: auto;
+}
+
+@media (min-width: 767px) {
+  .site-logo {
+    width: min(100%, 283px);
+  }
+}

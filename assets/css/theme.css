@@ -1,0 +1,15 @@
+/*
+ * Theme stylesheet
+ *
+ * Edit the smaller files in this folder. The import order follows the
+ * structure of the theme and keeps the WordPress enqueue setup simple.
+ */
+@import url("constants.css");
+@import url("base.css");
+@import url("typography.css");
+@import url("header.css");
+@import url("menu.css");
+@import url("footer.css");
+@import url("forms.css");
+@import url("components.css");
+@import url("pages.css");

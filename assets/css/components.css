@@ -1,0 +1,41 @@
+/*
+ * Components
+ */
+.intro-image {
+  display: block;
+}
+
+/*** Button ***/
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--theme-color-primary);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--theme-color-secondary);
+  color: white;
+}
+
+
+/*** Image Slider ***/
+
+.projecttheme-image-slider .carousel-inner {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.projecttheme-image-slider .carousel-item,
+.projecttheme-image-slider .carousel-item img {
+  height: 100%;
+}
+
+.projecttheme-image-slider .carousel-item img {
+  object-fit: cover;
+}

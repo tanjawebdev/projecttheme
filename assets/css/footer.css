@@ -1,0 +1,29 @@
+/*
+ * Footer
+ */
+footer {
+  background-color: var(--theme-color-secondary);
+  display: flex;
+  color: #ffffff;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0 4rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 767px) {
+  footer .footer-content{
+    flex-direction: row;
+    padding: 4rem 0 6rem;
+    gap: 0;
+  }
+}
+
+.footer-logo img {
+  filter: brightness(0) invert(1);
+}

@@ -1,12 +1,64 @@
 /*
  * Typography
  */
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v20-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v20-latin-600.woff2") format("woff2");
+}
+
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: var(--theme-color-secondary);
+  font-family: var(--theme-font-body);
+  font-size: var(--theme-font-size-base);
+  line-height: var(--theme-line-height-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--theme-font-heading);
+  font-weight: 700;
+  line-height: var(--theme-line-height-heading);
+}
+
+h1 {
+  color: var(--theme-color-primary);
+}
+
+h2, h3 {
+  color: var(--theme-color-secondary);
 }
 
 a,

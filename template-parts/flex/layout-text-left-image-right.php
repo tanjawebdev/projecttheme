@@ -2,9 +2,11 @@
 $headline = get_sub_field('headline');
 $text     = get_sub_field('text');
 $image_id = get_sub_field('image');
+$summary  = get_sub_field('summary');
 ?>
 <div class="row align-items-center g-5">
   <div class="col-md-6">
+    <?php if ($summary): ?><p class="lead"><?php echo esc_html($summary); ?></p><?php endif; ?>
     <?php if ($headline): ?><h2><?php echo esc_html($headline); ?></h2><?php endif; ?>
     <?php if ($text): ?><div class="rte"><?php echo wp_kses_post($text); ?></div><?php endif; ?>
   </div>

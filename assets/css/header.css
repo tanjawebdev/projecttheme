@@ -34,6 +34,6 @@ header {
 
 @media (min-width: 767px) {
   .site-logo {
-    width: min(100%, 283px);
+    width: min(100%, 150px);
   }
 }

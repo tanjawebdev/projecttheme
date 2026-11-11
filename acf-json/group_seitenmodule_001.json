@@ -23,10 +23,10 @@
             "acfe_flexible_layouts_templates": 0,
             "acfe_flexible_layouts_placeholder": 0,
             "acfe_flexible_layouts_thumbnails": 0,
-            "acfe_flexible_layouts_settings": 0,
             "acfe_flexible_async": [],
             "acfe_flexible_add_actions": [],
             "acfe_flexible_remove_button": [],
+            "acfe_flexible_remove_top_actions": [],
             "acfe_flexible_layouts_state": "user",
             "acfe_flexible_modal_edit": {
                 "acfe_flexible_modal_edit_enabled": "0",
@@ -38,6 +38,12 @@
                 "acfe_flexible_modal_size": "full",
                 "acfe_flexible_modal_col": "4",
                 "acfe_flexible_modal_categories": "1"
+            },
+            "acfe_flexible_modal_settings": {
+                "acfe_flexible_modal_settings_enabled": "0",
+                "acfe_flexible_modal_settings_size": "large",
+                "acfe_flexible_modal_settings_close": true,
+                "acfe_flexible_modal_settings_close_label": ""
             },
             "layouts": {
                 "layout_intro": {
@@ -148,156 +154,6 @@
                                 "id": ""
                             },
                             "return_format": "array"
-                        },
-                        {
-                            "key": "field_intro_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_intro_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_intro_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_intro_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_intro_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -308,7 +164,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_breaker": {
@@ -367,156 +223,6 @@
                             "save_options": 0,
                             "allow_custom": 0,
                             "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_breaker_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_breaker_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_breaker_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_breaker_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_breaker_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -527,7 +233,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_text_1col": {
@@ -575,156 +281,6 @@
                             "media_upload": 1,
                             "default_value": "",
                             "delay": 0
-                        },
-                        {
-                            "key": "field_text1_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_text1_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text1_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text1_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_text1_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -737,7 +293,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_text_2col": {
@@ -785,156 +341,6 @@
                             "media_upload": 1,
                             "default_value": "",
                             "delay": 0
-                        },
-                        {
-                            "key": "field_text2_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_text2_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text2_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text2_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_text2_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -947,7 +353,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_text_3col": {
@@ -1015,156 +421,6 @@
                             "media_upload": 1,
                             "default_value": "",
                             "delay": 0
-                        },
-                        {
-                            "key": "field_text3_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_text3_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text3_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text3_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_text3_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -1177,7 +433,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_text_4col": {
@@ -1265,156 +521,6 @@
                             "media_upload": 1,
                             "default_value": "",
                             "delay": 0
-                        },
-                        {
-                            "key": "field_text4_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_text4_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text4_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_text4_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_text4_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -1427,7 +533,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_text_left_image_right": {
@@ -1504,105 +610,9 @@
                             "acfe_thumbnail": 0
                         },
                         {
-                            "key": "field_tlir_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_tlir_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_tlir_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_tlir_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
+                            "key": "field_6aedbd64ab056",
+                            "label": "Summary",
+                            "name": "summary",
                             "aria-label": "",
                             "type": "text",
                             "instructions": "",
@@ -1619,39 +629,6 @@
                             "placeholder": "",
                             "prepend": "",
                             "append": ""
-                        },
-                        {
-                            "key": "field_tlir_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -1664,7 +641,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_image_left_text_right": {
@@ -1739,156 +716,6 @@
                             "media_upload": 1,
                             "default_value": "",
                             "delay": 0
-                        },
-                        {
-                            "key": "field_iltr_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_iltr_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_iltr_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_iltr_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_iltr_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -1901,7 +728,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_image_slider": {
@@ -1972,163 +799,13 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "default_value": 7000,
-                            "min": 5000,
+                            "default_value": 5000,
+                            "min": 1000,
                             "step": 500,
                             "max": "",
                             "placeholder": "",
                             "prepend": "",
                             "append": ""
-                        },
-                        {
-                            "key": "field_image_slider_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_image_slider_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_image_slider_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_image_slider_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_image_slider_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -2141,7 +818,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_bildboxen": {
@@ -2292,156 +969,6 @@
                             "save_options": 0,
                             "allow_custom": 0,
                             "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_bildboxen_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_bildboxen_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_bildboxen_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_bildboxen_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_bildboxen_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -2454,7 +981,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_galerie": {
@@ -2510,156 +1037,6 @@
                             "message": "",
                             "ui_on_text": "",
                             "ui_off_text": ""
-                        },
-                        {
-                            "key": "field_galerie_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_galerie_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_galerie_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_galerie_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_galerie_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -2672,7 +1049,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_tabs": {
@@ -2746,156 +1123,6 @@
                                 }
                             ],
                             "acfe_repeater_stylised_button": 0
-                        },
-                        {
-                            "key": "field_tabs_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_tabs_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_tabs_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_tabs_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_tabs_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -2908,7 +1135,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_akkordeon": {
@@ -3002,156 +1229,6 @@
                             "message": "",
                             "ui_on_text": "",
                             "ui_off_text": ""
-                        },
-                        {
-                            "key": "field_acc_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_acc_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_acc_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_acc_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_acc_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -3164,7 +1241,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_code_editor": {
@@ -3225,156 +1302,6 @@
                             "maxlength": "",
                             "placeholder": "",
                             "acfe_textarea_code": 0
-                        },
-                        {
-                            "key": "field_code_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_code_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_code_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_code_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "allow_in_bindings": 0,
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_code_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
                         }
                     ],
                     "min": "",
@@ -3387,7 +1314,7 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 },
                 "layout_google_map": {
@@ -3436,107 +1363,31 @@
                             "placeholder": "",
                             "prepend": "",
                             "append": ""
-                        },
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Interaktive Elemente"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
+                },
+                "layout_6af43fde1689c": {
+                    "key": "layout_6af43fde1689c",
+                    "name": "project_highlight",
+                    "label": "Project Highlight",
+                    "display": "block",
+                    "sub_fields": [
                         {
-                            "key": "field_map_container",
-                            "label": "container",
-                            "name": "container",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "container": "container-small",
-                                "container-lg": "container-lg",
-                                "container-fluid": "container-fluid"
-                            },
-                            "default_value": "container-lg",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_custom": 0,
-                            "placeholder": "",
-                            "search_placeholder": "",
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "create_options": 0,
-                            "save_options": 0
-                        },
-                        {
-                            "key": "field_map_background",
-                            "label": "background",
-                            "name": "background",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "none": "none",
-                                "light": "light",
-                                "dark": "dark"
-                            },
-                            "default_value": "none",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_map_show_on",
-                            "label": "Sichtbarkeit (Breakpoint)",
-                            "name": "show-on",
-                            "aria-label": "",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Überall": "everywhere",
-                                "Nur Mobil": "only-mobile",
-                                "Nur Desktop": "only-desktop"
-                            },
-                            "default_value": "Überall",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
-                            "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
-                        },
-                        {
-                            "key": "field_map_id_anchor",
-                            "label": "ID/Anchor",
-                            "name": "id-anchor",
+                            "key": "field_6af4402d1689e",
+                            "label": "Summary",
+                            "name": "summary",
                             "aria-label": "",
                             "type": "text",
                             "instructions": "",
@@ -3555,11 +1406,32 @@
                             "append": ""
                         },
                         {
-                            "key": "field_map_padding_y",
-                            "label": "Abstand Unten",
-                            "name": "padding_y",
+                            "key": "field_6af440501689f",
+                            "label": "Title",
+                            "name": "title",
                             "aria-label": "",
-                            "type": "select",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6af44076168a0",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "wysiwyg",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -3568,24 +1440,40 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "choices": {
-                                "0": "kein Abstand",
-                                "py-2": "kleiner Abstand",
-                                "py-5": "normaler Abstand",
-                                "py-10": "großer Abstand"
-                            },
-                            "default_value": "py-5",
-                            "return_format": "value",
-                            "multiple": 0,
-                            "allow_null": 0,
+                            "default_value": "",
                             "allow_in_bindings": 0,
-                            "ui": 0,
-                            "ajax": 0,
-                            "placeholder": "",
-                            "create_options": 0,
-                            "save_options": 0,
-                            "allow_custom": 0,
-                            "search_placeholder": ""
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_6af44099168a1",
+                            "label": "Image",
+                            "name": "image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "uploader": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "acfe_thumbnail": 0,
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "medium"
                         }
                     ],
                     "min": "",
@@ -3598,14 +1486,15 @@
                     "acfe_flexible_render_script": false,
                     "acfe_flexible_thumbnail": false,
                     "acfe_flexible_settings": false,
-                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
                 }
             },
             "min": "",
             "max": "",
             "button_label": "Sektion hinzufügen",
-            "acfe_flexible_layouts_previews": false
+            "acfe_flexible_layouts_previews": false,
+            "acfe_flexible_close_button_label": ""
         }
     ],
     "location": [
@@ -3632,12 +1521,13 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "acfe_display_title": "",
-    "acfe_autosync": [
-        "json"
-    ],
-    "acfe_form": 0,
-    "acfe_meta": "",
-    "acfe_note": "",
-    "modified": 1759588616
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "acfe": {
+        "autosync": [
+            "json"
+        ]
+    },
+    "modified": 1794392289
 }

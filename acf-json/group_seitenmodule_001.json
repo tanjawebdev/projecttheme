@@ -1488,6 +1488,186 @@
                     "acfe_flexible_settings": false,
                     "acfe_flexible_settings_size": false,
                     "acfe_flexible_modal_edit_size": false
+                },
+                "layout_quote_section": {
+                    "key": "layout_quote_section",
+                    "name": "quote_section",
+                    "label": "Quote Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_quote_section_heading",
+                            "label": "Heading",
+                            "name": "heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_quote_section_subheading",
+                            "label": "Subheading",
+                            "name": "subheading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_quote_section_quotes",
+                            "label": "Quotes",
+                            "name": "quotes",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "row",
+                            "min": 0,
+                            "max": 0,
+                            "rows_per_page": 20,
+                            "button_label": "Add Row",
+                            "collapsed": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_quote_section_quote",
+                                    "label": "Quote",
+                                    "name": "quote",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "rows": 3,
+                                    "default_value": "",
+                                    "new_lines": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "acfe_textarea_code": 0,
+                                    "parent_repeater": "field_quote_section_quotes"
+                                },
+                                {
+                                    "key": "field_quote_section_image",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "id",
+                                    "preview_size": "thumbnail",
+                                    "library": "all",
+                                    "min_width": 0,
+                                    "min_height": 0,
+                                    "min_size": 0,
+                                    "max_width": 0,
+                                    "max_height": 0,
+                                    "max_size": 0,
+                                    "mime_types": "",
+                                    "uploader": "",
+                                    "acfe_thumbnail": 0,
+                                    "parent_repeater": "field_quote_section_quotes"
+                                },
+                                {
+                                    "key": "field_quote_section_title",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_quote_section_quotes"
+                                },
+                                {
+                                    "key": "field_quote_section_description",
+                                    "label": "Description",
+                                    "name": "description",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "allow_in_bindings": 0,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_quote_section_quotes"
+                                }
+                            ],
+                            "acfe_repeater_stylised_button": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": [
+                        "Content"
+                    ],
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": false,
+                    "acfe_flexible_modal_edit_size": false
                 }
             },
             "min": "",
@@ -1529,5 +1709,5 @@
             "json"
         ]
     },
-    "modified": 1794392289
+    "modified": 1794820692
 }

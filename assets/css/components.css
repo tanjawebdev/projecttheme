@@ -39,3 +39,65 @@
 .projecttheme-image-slider .carousel-item img {
   object-fit: cover;
 }
+
+/*** Quote Section ***/
+
+.quote-section-header {
+  max-width: 42rem;
+}
+
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: var(--theme-color-tertiary);
+  border: 1px solid rgba(31, 32, 32, 0.12);
+  border-radius: 0.25rem;
+}
+
+.quote-card blockquote {
+  margin: 0;
+  color: var(--theme-color-secondary);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.quote-card blockquote::before {
+  content: "\201C";
+  display: block;
+  color: var(--theme-color-primary);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 0.75;
+}
+
+.quote-card-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.quote-card-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex: 0 0 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.quote-card-author cite,
+.quote-card-author span {
+  display: block;
+  font-style: normal;
+}
+
+.quote-card-author cite {
+  font-weight: 600;
+}
+
+.quote-card-author span {
+  color: rgba(31, 32, 32, 0.7);
+  font-size: 0.875rem;
+}

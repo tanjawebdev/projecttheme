@@ -7,6 +7,7 @@ $summary  = get_sub_field('summary');
 $img_id   = get_sub_field('image');
 $title = get_sub_field('title');
 $text     = get_sub_field('text');
+
 ?>
 <div class="row align-items-center g-5">
   <div class="col-md-6">
